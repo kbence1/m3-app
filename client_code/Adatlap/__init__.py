@@ -12,7 +12,48 @@ from anvil.tables import app_tables
 #
 
 riasztas_tipusa = ''
-
+riasztas_datuma = ''
+riasztas_idopont = ''
+riasztasi_cim = ''
+riasztas_koordinata = ''
+riasztas_helyenek_leirasa = ''
+riasztas_leirasa = ''
+riasztast_igenylo = ''
+bejelento_adatai = ''
+helyszini_iranyito_neve = ''
+helyszini_iranyito_beosztasa = ''
+helyszini_iranyito_telefonszama = ''
+helyszini_iranyito_emailcime = ''
+pmkmsz_iranyito = ''
 
 def say_hello():
   print("Hello, world")
+
+def riasztasi_adatok_mentese(riasztas_tipusa,
+                             riasztas_datuma,
+                             riasztas_idopont,
+                             riasztasi_cim,
+                             riasztas_koordinata,
+                             riasztas_helyenek_leirasa,
+                             riasztas_leirasa,
+                             riasztast_igenylo,
+                             bejelento_adatai,
+                             helyszini_iranyito_neve,
+                             helyszini_iranyito_beosztasa,
+                             helyszini_iranyito_telefonszama,
+                             helyszini_iranyito_emailcime,
+                             pmkmsz_iranyito):
+  self.riasztas_tipusa = riasztas_tipusa
+  riasztas_datuma 
+  riasztas_idopont,
+  riasztasi_cim,
+  riasztas_koordinata,
+  riasztas_helyenek_leirasa,
+  riasztas_leirasa,
+  riasztast_igenylo,
+  bejelento_adatai,
+  helyszini_iranyito_neve,
+  helyszini_iranyito_beosztasa,
+  helyszini_iranyito_telefonszama,
+  helyszini_iranyito_emailcime,
+  pmkmsz_iranyito

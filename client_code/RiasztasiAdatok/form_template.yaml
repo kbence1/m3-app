@@ -117,4 +117,9 @@ components:
     properties: {}
     type: DropDown
     layout_properties: {row: NBTPEC, width_xs: 3, col_xs: 2}
+  - name: riasztasi_adatok_mentes_button
+    properties: {text: Mentés}
+    type: Button
+    layout_properties: {row: HHEBEK, width_xs: 3, col_xs: 4}
+    event_bindings: {click: riasztasi_adatok_mentes_button_click}
 is_package: true

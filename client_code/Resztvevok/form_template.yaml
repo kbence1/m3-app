@@ -1,3 +1,19 @@
 container: {type: ColumnPanel}
-components: []
+components:
+- name: label_1
+  properties: {text: 'Résztvevők:'}
+  type: Label
+  layout_properties: {grid_position: 'GYXUQS,DMXYYN'}
+- name: resztvevok
+  properties: {unique: true}
+  type: form:dep_ygm3be4r0wtdk:MultiSelectDropDown
+  layout_properties: {grid_position: 'MCIBSV,QJZTLS'}
+- name: label_2
+  properties: {text: 'Résztvevő kutyák:'}
+  type: Label
+  layout_properties: {grid_position: 'TIZSQN,OYHJKT'}
+- name: resztvevo_kutyak
+  properties: {unique: true}
+  type: form:dep_ygm3be4r0wtdk:MultiSelectDropDown
+  layout_properties: {grid_position: 'GQIPLK,XDANXF'}
 is_package: true

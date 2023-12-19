@@ -59,4 +59,12 @@ db_schema:
     - name: ShortName
       admin_ui: {width: 200, order: 2}
       type: string
+  onkentesek:
+    client: search
+    server: full
+    columns:
+    - name: Name
+      admin_ui: {width: 200, order: 0}
+      type: string
+    title: Onkentesek
 renamed: true

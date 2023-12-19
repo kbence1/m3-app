@@ -16,3 +16,24 @@ components:
   properties: {}
   type: ColumnPanel
   layout_properties: {slot: left-nav}
+  components:
+  - name: button_1
+    properties: {text: Riasztás adatai}
+    type: Button
+    layout_properties: {grid_position: 'MIHWKL,RJAQKX'}
+  - name: button_2
+    properties: {text: Résztvevők}
+    type: Button
+    layout_properties: {grid_position: 'RUTFEL,WGNBPX'}
+  - name: button_3
+    properties: {text: Riasztott szerek}
+    type: Button
+    layout_properties: {grid_position: 'EFRXCS,QJJBGW'}
+  - name: button_4
+    properties: {text: Riasztás lezárása}
+    type: Button
+    layout_properties: {grid_position: 'WIWUTW,BCVLKA'}
+  - name: button_5
+    properties: {text: Dokumentumok}
+    type: Button
+    layout_properties: {grid_position: 'CTYHEE,LSZHYJ'}

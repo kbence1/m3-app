@@ -11,6 +11,8 @@ from anvil.tables import app_tables
 #    Package1.say_hello()
 #
 
+riasztas_tipusa = ''
+
 
 def say_hello():
   print("Hello, world")

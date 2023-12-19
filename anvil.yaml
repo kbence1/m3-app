@@ -7,12 +7,13 @@ services:
   client_config: {allow_signup: false, enable_automatically: false, use_email: true,
     confirm_email: false, allow_remember_me: true, remember_me_days: 30, require_secure_passwords: true}
   server_config: {user_table: users}
+startup: {type: form, module: Main}
 package_name: M3_App_1
 allow_embedding: false
 name: M3 App 1
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
-startup_form: Form1
+startup_form: null
 db_schema:
   users:
     client: full
@@ -39,5 +40,19 @@ db_schema:
     - name: remembered_logins
       admin_ui: {order: 6, width: 200}
       type: simpleObject
+    - name: signed_up
+      admin_ui: {width: 200}
+      type: datetime
     title: Users
+  riasztastado:
+    title: RiasztastAdo
+    client: search
+    server: full
+    columns:
+    - name: Name
+      admin_ui: {width: 200}
+      type: string
+    - name: ShortName
+      admin_ui: {width: 200, order: 2}
+      type: string
 renamed: true

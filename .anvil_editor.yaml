@@ -1,7 +1,9 @@
 unique_ids:
   forms:
-    Form1: MGNV62GXCKK6JGHKGO7HURPJD24FJ5VL
-  modules: {}
+    Main: MGNV62GXCKK6JGHKGO7HURPJD24FJ5VL
+    RiasztasiAdatok: '1703014570410354672150585.0814'
+  modules:
+    Adatlap: '1703017682138665959183437.7279'
   server_modules:
     ServerModule1: '1702927245026196816062423.04605'
   assets:

@@ -1,0 +1,120 @@
+container: {type: ColumnPanel}
+components:
+- name: grid_panel_1
+  properties: {}
+  type: GridPanel
+  layout_properties: {grid_position: 'NGYUGC,GPJDDW'}
+  components:
+  - name: label_3
+    properties: {text: 'Riasztás típusa:'}
+    type: Label
+    layout_properties: {row: RSNOXX, width_xs: 2, col_xs: 0}
+  - name: riasztas_tipusa_dropdown
+    properties: {}
+    type: DropDown
+    layout_properties: {row: RSNOXX, width_xs: 3, col_xs: 2}
+  - name: label_4
+    properties: {text: Riasztás dátuma}
+    type: Label
+    layout_properties: {row: RSNOXX, width_xs: 3, col_xs: 5}
+  - name: riasztas_datuma
+    properties: {}
+    type: DatePicker
+    layout_properties: {row: RSNOXX, width_xs: 3, col_xs: 8}
+  - name: label_14
+    properties: {text: Riasztás időpont}
+    type: Label
+    layout_properties: {row: EVKDDA, width_xs: 2, col_xs: 5}
+  - name: riasztas_idopont
+    properties: {}
+    type: TextBox
+    layout_properties: {row: EVKDDA, width_xs: 3, col_xs: 8}
+  - name: label_2
+    properties: {text: 'Riasztási cím:'}
+    type: Label
+    layout_properties: {row: YROXWX, width_xs: 2, col_xs: 0}
+  - name: riasztasi_cim
+    properties: {visible: true, enabled: true, hide_text: false}
+    type: TextBox
+    layout_properties: {row: YROXWX, width_xs: 3, col_xs: 2}
+  - name: label_5
+    properties: {text: Riasztás koordinátája}
+    type: Label
+    layout_properties: {row: YROXWX, width_xs: 3, col_xs: 5}
+  - name: riasztas_koordinataja
+    properties: {}
+    type: TextBox
+    layout_properties: {row: YROXWX, width_xs: 3, col_xs: 8}
+  - name: label_6
+    properties: {text: Riasztás helyének leírása}
+    type: Label
+    layout_properties: {row: PKNUTZ, width_xs: 2, col_xs: 0}
+  - name: riasztas_hely_leiras
+    properties: {}
+    type: TextArea
+    layout_properties: {row: PKNUTZ, width_xs: 3, col_xs: 2}
+  - name: label_7
+    properties: {text: Riasztás leírása}
+    type: Label
+    layout_properties: {row: PKNUTZ, width_xs: 3, col_xs: 5}
+  - name: riasztas_leirasa
+    properties: {}
+    type: TextArea
+    layout_properties: {row: PKNUTZ, width_xs: 3, col_xs: 8}
+  - name: label_1
+    properties: {text: 'Ki adta a riasztást?'}
+    type: Label
+    layout_properties: {row: XLNDIS, width_xs: 2, col_xs: 0}
+  - name: riasztast_igenylo
+    properties: {}
+    type: DropDown
+    layout_properties: {row: XLNDIS, width_xs: 3, col_xs: 2}
+  - name: label_8
+    properties: {text: Bejelentő adatai}
+    type: Label
+    layout_properties: {row: XLNDIS, width_xs: 3, col_xs: 5}
+  - name: bejelento_adatai
+    properties: {}
+    type: TextBox
+    layout_properties: {row: XLNDIS, width_xs: 3, col_xs: 8}
+  - name: label_9
+    properties: {text: Helyszíni irányító neve}
+    type: Label
+    layout_properties: {row: AMIWIW, width_xs: 2, col_xs: 0}
+  - name: helyszini_iranyito_nev
+    properties: {}
+    type: TextBox
+    layout_properties: {row: AMIWIW, width_xs: 3, col_xs: 2}
+  - name: label_11
+    properties: {text: Helyszíni irányító beosztása}
+    type: Label
+    layout_properties: {row: AMIWIW, width_xs: 2, col_xs: 5}
+  - name: helyszini_iranyito_beosztas
+    properties: {}
+    type: TextBox
+    layout_properties: {row: AMIWIW, width_xs: 3, col_xs: 8}
+  - name: label_10
+    properties: {text: Helyszíni irányító telefonszáma}
+    type: Label
+    layout_properties: {row: XJDLPE, width_xs: 2, col_xs: 0}
+  - name: helyszini_iranyito_telefonszam
+    properties: {}
+    type: TextBox
+    layout_properties: {row: XJDLPE, width_xs: 3, col_xs: 2}
+  - name: label_12
+    properties: {text: Helyszíni irányító email címe}
+    type: Label
+    layout_properties: {row: XJDLPE, width_xs: 2, col_xs: 5}
+  - name: helyszini_iranyito_email
+    properties: {}
+    type: TextBox
+    layout_properties: {row: XJDLPE, width_xs: 3, col_xs: 8}
+  - name: label_13
+    properties: {text: PMKMSZ irányító}
+    type: Label
+    layout_properties: {row: NBTPEC, width_xs: 2, col_xs: 0}
+  - name: pmkmsz_iranyito
+    properties: {}
+    type: DropDown
+    layout_properties: {row: NBTPEC, width_xs: 3, col_xs: 2}
+is_package: true

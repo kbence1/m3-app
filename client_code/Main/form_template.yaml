@@ -1,0 +1,44 @@
+is_package: true
+container:
+  type: HtmlTemplate
+  properties: {html: '@theme:standard-page.html'}
+components:
+- type: ColumnPanel
+  properties: {col_widths: '{}'}
+  name: content_panel
+  layout_properties: {slot: default}
+  components: []
+- type: FlowPanel
+  properties: {}
+  name: navbar_links
+  layout_properties: {slot: nav-right}
+- name: column_panel_1
+  properties: {}
+  type: ColumnPanel
+  layout_properties: {slot: left-nav}
+  components:
+  - name: riasztasi_adatok
+    properties: {text: Riasztási adatok, align: center}
+    type: Link
+    layout_properties: {grid_position: 'FFBGGH,MOSGMG'}
+    event_bindings: {click: riasztási_adatok_link_click}
+  - name: resztvevok
+    properties: {text: Résztvevők, align: center}
+    type: Link
+    layout_properties: {grid_position: 'QBVRXE,KCMUFV'}
+    event_bindings: {click: resztvevok_link_click}
+  - name: link_1
+    properties: {text: Riasztott szerek, align: center}
+    type: Link
+    layout_properties: {grid_position: 'QAYJNE,AXZQTA'}
+    event_bindings: {click: riasztott_szerek_link_click}
+  - name: link_2
+    properties: {text: Riasztás lezárása, align: center}
+    type: Link
+    layout_properties: {grid_position: 'KZDRVY,FHVWEV'}
+    event_bindings: {click: riasztás_lezarasa_link_click}
+  - name: link_3
+    properties: {text: Dokumentumok, align: center}
+    type: Link
+    layout_properties: {grid_position: 'HLXHFA,MGZETO'}
+    event_bindings: {click: dokumentumok_link_click}

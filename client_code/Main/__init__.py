@@ -13,7 +13,6 @@ class Main(MainTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)
-    anvil.server.call('create_user')
     anvil.users.login_with_form()
 
     # set each Link's `tag.form_to_open` attribute to an instance of the Form you want to open

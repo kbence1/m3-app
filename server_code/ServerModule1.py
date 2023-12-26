@@ -18,4 +18,4 @@ import anvil.server
 #
 @anvil.server.callable
 def create_user():
-  anvil.users.signup_with_email("kissbence222@gmail.com","asd123");
+  anvil.users.signup_with_email('kissbence222@gmail.com','tjaFy3qZS4BdUeJfEcLWnz');

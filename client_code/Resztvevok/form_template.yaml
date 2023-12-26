@@ -4,16 +4,8 @@ components:
   properties: {text: 'Résztvevők:'}
   type: Label
   layout_properties: {grid_position: 'GYXUQS,DMXYYN'}
-- name: resztvevok
-  properties: {}
-  type: DropDown
-  layout_properties: {grid_position: 'WQYACN,IOSTSR'}
 - name: label_2
   properties: {text: 'Résztvevő kutyák:'}
   type: Label
   layout_properties: {grid_position: 'TIZSQN,OYHJKT'}
-- name: resztvevo_kutyak
-  properties: {}
-  type: DropDown
-  layout_properties: {grid_position: 'FFKBPV,ENMMEW'}
 is_package: true

@@ -3,10 +3,6 @@ dependencies:
   version: {dev: false}
   resolution_hints: {app_id: MOY3RL7YKT2NW3SU, name: Clone of Multi Select Tokens,
     package_name: Tokens}
-- dep_id: dep_8swg0skhm841
-  version: {dev: false}
-  resolution_hints: {app_id: 6MIPVONCWAU3TGY7, name: Clone of Multi Select Tokens Example,
-    package_name: TokensExample}
 services:
 - source: /runtime/services/tables.yml
   client_config: {}

@@ -18,7 +18,7 @@ class Main(MainTemplate):
     # set each Link's `tag.form_to_open` attribute to an instance of the Form you want to open
     self.riasztasi_adatok.tag.form_to_open = RiasztasiAdatok()
     self.resztvevok.tag.form_to_open = Resztvevok()
-    self.riasztás_lezarasa.tag.form_to_open = RiasztasLezarasa()
+    self.riasztas_lezarasa.tag.form_to_open = RiasztasLezarasa()
     
 
     # Any code you write here will run before the form opens.

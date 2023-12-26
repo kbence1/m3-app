@@ -5,15 +5,15 @@ components:
   type: Label
   layout_properties: {grid_position: 'GYXUQS,DMXYYN'}
 - name: resztvevok
-  properties: {unique: true}
-  type: form:dep_ygm3be4r0wtdk:MultiSelectDropDown
-  layout_properties: {grid_position: 'FMGYQS,CUDIVQ', full_width_row: false}
+  properties: {}
+  type: form:dep_yiylnhrykgj5a:MultiSelectDropDown
+  layout_properties: {grid_position: 'FPYXHC,IKPPDV', full_width_row: false}
 - name: label_2
   properties: {text: 'Résztvevő kutyák:'}
   type: Label
   layout_properties: {grid_position: 'TIZSQN,OYHJKT'}
 - name: resztvevo_kutyak
-  properties: {unique: true}
-  type: form:dep_ygm3be4r0wtdk:MultiSelectDropDown
-  layout_properties: {grid_position: 'GQIPLK,XDANXF'}
+  properties: {}
+  type: form:dep_yiylnhrykgj5a:MultiSelectDropDown
+  layout_properties: {grid_position: 'RVXOKB,NFJIFZ'}
 is_package: true

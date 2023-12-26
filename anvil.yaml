@@ -3,6 +3,9 @@ dependencies:
   version: {dev: false}
   resolution_hints: {app_id: MOY3RL7YKT2NW3SU, name: Clone of Multi Select Tokens,
     package_name: Tokens}
+- dep_id: dep_yiylnhrykgj5a
+  version: {dev: false}
+  resolution_hints: {app_id: C6ZZPAPN4YYF5NVJ, name: Anvil Extras, package_name: anvil_extras}
 services:
 - source: /runtime/services/tables.yml
   client_config: {}

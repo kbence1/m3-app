@@ -4,16 +4,8 @@ components:
   properties: {text: 'Résztvevők:'}
   type: Label
   layout_properties: {grid_position: 'GYXUQS,DMXYYN'}
-- name: resztvevok
-  properties: {}
-  type: form:dep_yiylnhrykgj5a:MultiSelectDropDown
-  layout_properties: {grid_position: 'FPYXHC,IKPPDV', full_width_row: false}
 - name: label_2
   properties: {text: 'Résztvevő kutyák:'}
   type: Label
   layout_properties: {grid_position: 'TIZSQN,OYHJKT'}
-- name: resztvevo_kutyak
-  properties: {}
-  type: form:dep_yiylnhrykgj5a:MultiSelectDropDown
-  layout_properties: {grid_position: 'RVXOKB,NFJIFZ'}
 is_package: true

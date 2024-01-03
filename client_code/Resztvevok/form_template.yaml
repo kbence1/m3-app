@@ -1,19 +1,24 @@
 container: {type: ColumnPanel}
 components:
-- name: label_1
-  properties: {text: 'Résztvevők:'}
-  type: Label
-  layout_properties: {grid_position: 'GYXUQS,DMXYYN'}
-- name: resztvevok
+- name: grid_panel_1
   properties: {}
-  type: form:dep_rcvdjeopeoqaai:MultiSelectDropDown
-  layout_properties: {grid_position: 'DWRFMS,IQFEZS'}
-- name: label_2
-  properties: {text: 'Résztvevő kutyák:'}
-  type: Label
-  layout_properties: {grid_position: 'TIZSQN,OYHJKT'}
-- name: resztvevo_kutyak
-  properties: {}
-  type: form:dep_rcvdjeopeoqaai:MultiSelectDropDown
-  layout_properties: {grid_position: 'VDRWOY,TKUCWB'}
+  type: GridPanel
+  layout_properties: {grid_position: 'RZLALU,XZPOZC'}
+  components:
+  - name: label_1
+    properties: {text: 'Résztvevők:'}
+    type: Label
+    layout_properties: {row: ZJCHAZ, width_xs: 12, col_xs: 0}
+  - name: resztvevok
+    properties: {}
+    type: form:dep_rcvdjeopeoqaai:MultiSelectDropDown
+    layout_properties: {row: UNTYDC, width_xs: 12, col_xs: 0}
+  - name: label_2
+    properties: {text: 'Résztvevő kutyák:'}
+    type: Label
+    layout_properties: {row: LLZASF, width_xs: 12, col_xs: 0}
+  - name: resztvevo_kutyak
+    properties: {}
+    type: form:dep_rcvdjeopeoqaai:MultiSelectDropDown
+    layout_properties: {row: ZLZQWX, width_xs: 12, col_xs: 0}
 is_package: true
